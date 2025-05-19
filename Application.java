@@ -19,6 +19,7 @@ public class MyClass {
         // Calling the public method
         myObject.publicMethod();
     }
+
 	#feature 202 changes by Ethan Developer for his UserServices Module on oct 2024
 	public void display2(int a) {
     System.out.println("Method with a single parameter: " + a);
@@ -37,4 +38,20 @@ public class MyClass {
   }
 }
 #end of feature202 changes
+
+	#feature201 changes by Vivek on SavingsAcct Module in Oct2024
+	public static void main(String[] args) {
+    
+    int num1 = 25;
+    int num2 = 15;
+
+    // create an object of Main
+    Main obj = new Main();
+    // calling method
+    int result = obj.addNumbers(num1, num2);
+    System.out.println("Sum is: " + result);
+  }
+}
+#end of feature201 code changes
+
 }
