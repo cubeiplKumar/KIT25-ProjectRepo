@@ -19,6 +19,26 @@ public class MyClass {
         // Calling the public method
         myObject.publicMethod();
     }
+
+	#feature 202 changes by Ethan Developer for his UserServices Module on oct 2024
+	public void display2(int a) {
+    System.out.println("Method with a single parameter: " + a);
+  }
+
+  public static void main(String[] args) {
+    
+    // create an object of Main
+    Main obj = new Main();
+
+    // calling method with no parameter
+    obj.display1();
+    
+    // calling method with the single parameter
+    obj.display2(24);
+  }
+}
+#end of feature202 changes
+
 	#feature201 changes by Vivek on SavingsAcct Module in Oct2024
 	public static void main(String[] args) {
     
@@ -33,4 +53,5 @@ public class MyClass {
   }
 }
 #end of feature201 code changes
+
 }
